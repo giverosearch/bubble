@@ -154,7 +154,7 @@ const GameField = ({
             color: { repeat: Infinity, duration: 2, ease: 'linear' },
           }}
         >
-          Amusemore
+          AM POP
         </motion.span>
         <h1 className='score'>{score}</h1>
       </div>

@@ -11,12 +11,12 @@ const Hero = ({ handleNewGame }) => {
           opacity: 0.01,
         }}
         animate={{
-          scale: [1, 1.01, 1.03, 1, 0.98, 1, 1.001, 1, 0.99],
+          scale: [1, 1.00],
           opacity: 1,
         }}
         transition={{
           type: 'spring',
-          duration: 4,
+          duration: 2000,
           stiffness: 100,
           scale: { repeat: Infinity, duration: 2 },
         }}
@@ -27,22 +27,16 @@ const Hero = ({ handleNewGame }) => {
           <motion.span
             animate={{
               color: [
-                '#ff0000',
-                '#ff7300',
-                '#fffb00',
-                '#48ff00',
-                '#00ffd5',
-                '#002bff',
-                '#7a00ff',
-                '#ff00c8',
-                '#ff0000',
+                '#001b4c',
+                '#001b4c',
+                '#001b4c',
               ],
             }}
             transition={{
               color: { repeat: Infinity, duration: 2, ease: 'linear' },
             }}
           >
-            Amusemore Pop
+            AM POP
           </motion.span>
         </h1>
         <h5 className='hero-rules'>Rules:</h5>
